@@ -1,6 +1,11 @@
 body{
   font-family: $font;
+  color: $nav-color;
   main {
     margin-top: $content_marg_top;
+  }
+  footer{
+    background: $nav-color;
+    color: white;
   }
 }

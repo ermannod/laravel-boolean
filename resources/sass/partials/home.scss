@@ -1,0 +1,44 @@
+main{
+
+  .container{
+    padding: 50px 0;
+
+
+    .title-jumbo{
+      font-size: 58px;
+      line-height: 1;
+    }
+
+    .subtitle{
+      font-size: 22px;
+    }
+
+    .jumbo-list{
+      font-size: 16px;
+    }
+
+    div .img-pos{
+      top:50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+
+  section.blue{
+    background-color: $nav-color;
+    color: white;
+    .container{
+      padding: 30px 0;
+      p{
+        padding: 0 30px;
+        font-size: 19px;
+      }
+    }
+  }
+
+  section.white{
+    background-color: white;
+    color: #8e8e8e;
+    font-size: 19px;
+  }
+}

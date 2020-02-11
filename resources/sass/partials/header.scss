@@ -5,6 +5,8 @@ header{
   width: 100vw;
   font-size: 14px;
   color: $nav-color;
+  background-color: white;
+  z-index: 10;
   #nav-logo{
     height: 60px;
   }

@@ -10886,10 +10886,16 @@ a.text-dark:focus {
 
 body {
   font-family: "Rubik", sans-serif;
+  color: #1b3c59;
 }
 
 body main {
   margin-top: 90px;
+}
+
+body footer {
+  background: #1b3c59;
+  color: white;
 }
 
 header {
@@ -10899,6 +10905,8 @@ header {
   width: 100vw;
   font-size: 14px;
   color: #1b3c59;
+  background-color: white;
+  z-index: 10;
 }
 
 header #nav-logo {
@@ -10936,5 +10944,93 @@ header li.nav-item:last-child a:hover {
 
 header .active {
   border-bottom: 2px solid #61ce4e;
+}
+
+main .container {
+  padding: 50px 0;
+}
+
+main .container .title-jumbo {
+  font-size: 58px;
+  line-height: 1;
+}
+
+main .container .subtitle {
+  font-size: 22px;
+}
+
+main .container .jumbo-list {
+  font-size: 16px;
+}
+
+main .container div .img-pos {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main section.blue {
+  background-color: #1b3c59;
+  color: white;
+}
+
+main section.blue .container {
+  padding: 30px 0;
+}
+
+main section.blue .container p {
+  padding: 0 30px;
+  font-size: 19px;
+}
+
+main section.white {
+  background-color: white;
+  color: #8e8e8e;
+  font-size: 19px;
+}
+
+footer {
+  padding: 50px 0 20px 0;
+}
+
+footer .col-6 {
+  padding: 0px;
+  border-bottom: 1px solid white;
+}
+
+footer .col-6 .footer-logo {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+footer div ul a {
+  color: white;
+  font-size: 20px;
+}
+
+footer div ul a:hover {
+  color: white;
+}
+
+footer .socials {
+  padding: 10px 0;
+  font-size: 44px;
+}
+
+footer .socials a {
+  margin-right: 16px;
+  color: white;
+}
+
+footer .socials a:hover {
+  color: white;
+}
+
+#privacy div div .privpol {
+  margin-bottom: 40px;
+}
+
+#privacy div div h3 {
+  margin-top: 40px;
 }
 

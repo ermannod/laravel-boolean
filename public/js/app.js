@@ -29895,7 +29895,17 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
-$(document).ready(function () {}); // end DOM
+$(document).ready(function () {
+  // looks for current url
+  var url = window.location.pathname; // removes class on non nav pages
+
+  if (url === '/privacy-policy') {
+    $('.nav-item').removeClass('active');
+  } else if (url === '/faq') {
+    $('.nav-item').removeClass('active');
+  } // end if remove active
+
+}); // end DOM
 
 /***/ }),
 

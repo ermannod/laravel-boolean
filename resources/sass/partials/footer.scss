@@ -1,0 +1,30 @@
+footer{
+  padding: 50px 0 20px 0;
+  .col-6{
+    padding: 0px;
+    border-bottom: 1px solid white;
+    .footer-logo{
+      width: 200px;
+      margin-bottom: 10px;
+    }
+  }
+
+  div ul a{
+    color: white;
+    font-size: 20px;
+    &:hover{
+      color: white;
+    }
+  }
+  .socials{
+    padding: 10px 0;
+    font-size: 44px;
+    a{
+      margin-right: 16px;
+      color: white;
+      &:hover{
+        color: white;
+      }
+    }
+  }
+}
