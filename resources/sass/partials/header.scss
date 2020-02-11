@@ -1,0 +1,41 @@
+header{
+  position: fixed;
+  height: 90px;
+  top: 0;
+  width: 100vw;
+  font-size: 14px;
+  color: $nav-color;
+  #nav-logo{
+    height: 60px;
+  }
+
+  li.nav-item{
+    margin: 0 5px;
+    padding: 0 20px;
+    height: 100%;
+
+    .nav-link{
+      color: $nav-color;
+    }
+
+    &:hover:not(:last-child){
+      border-bottom: $border-bottom;
+    }
+
+    &:last-child{
+      width: 220px;
+      text-align: center;
+      a{
+        background-color: #61ce4e;
+        color:white;
+        border-radius: 5px;
+        &:hover{
+          background-color: rgba(97, 206, 78, 0.8);
+        }
+      }
+    }
+  }
+  .active {
+    border-bottom: $border-bottom;
+  }
+}
