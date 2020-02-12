@@ -12,15 +12,18 @@ $(document).ready(function(){
     $('.nav-item').removeClass('active');
   } // end if remove active
 
-  //toggle on click reply to question
+  // shows and hides replies and changes + to - on click
   $('.faq_quest').click(function(){
-    $('.faq_quest p').slideUp('slow');
-    $(this).find('.dis-none').slideDown('slow');
-    if($('.faq_quest p').hasClass('slided')){
-      $('.faq_quest p').removeClass('slided');
-    } else{
-      $(this).find('.dis-none').addClass('slided');
-    }
-  });// end toggle reply on click
+    if($(this).find('p').is(':visible')){
+      $('.faq_quest h3 i').removeClass('fa-minus').addClass('fa-plus');
+      $('.faq_quest p').slideUp();
+    } else {
+      $('.faq_quest p').slideUp();
+      $(this).find('p').slideDown();
+      $('.faq_quest h3 i').removeClass('fa-minus').addClass('fa-plus');
+      $(this).find('h3 i').addClass('fa-minus').removeClass('fa-plus');
+    };
+  }); // end shows and hides replies and changes + to - on click
+
 
 }); // end DOM
