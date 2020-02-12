@@ -12,4 +12,15 @@ $(document).ready(function(){
     $('.nav-item').removeClass('active');
   } // end if remove active
 
+  //toggle on click reply to question
+  $('.faq_quest').click(function(){
+    $('.faq_quest p').slideUp('slow');
+    $(this).find('.dis-none').slideDown('slow');
+    if($('.faq_quest p').hasClass('slided')){
+      $('.faq_quest p').removeClass('slided');
+    } else{
+      $(this).find('.dis-none').addClass('slided');
+    }
+  });// end toggle reply on click
+
 }); // end DOM

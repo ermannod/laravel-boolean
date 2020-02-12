@@ -1,0 +1,25 @@
+.faq{
+  padding: 50px 100px;
+
+  .contactus{
+    color: inherit;
+    text-decoration: underline;
+  }
+}
+
+.container-fluid{
+  .faq-bool-left{
+    padding: 50px 50px 50px 100px;
+  }
+  .faq-bool-right{
+    padding: 50px 100px 50px 50px;
+  }
+
+  .faq_quest {
+    margin: 20px 0;
+    h3 i{
+      float: right;
+      cursor: pointer;
+    }
+  }
+}

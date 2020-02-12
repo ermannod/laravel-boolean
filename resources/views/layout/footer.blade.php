@@ -12,7 +12,7 @@
       <div class="col-6 text-right">
         <ul class="list-unstyled">
           <li><a href="#">Lezione gratuita</a></li>
-          <li><a href="#">Domande frequenti</a></li>
+          <li><a href="{{ url('faq') }}">Domande frequenti</a></li>
           <li><a href="#">Per le aziende</a></li>
           <li><a href="{{ url('privacy-policy')}}">Privacy policy</a></li>
           <li><a href="#">Lavora con noi</a></li>

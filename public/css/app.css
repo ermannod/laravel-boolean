@@ -10898,6 +10898,18 @@ body footer {
   color: white;
 }
 
+.blue {
+  background-color: #1b3c59;
+}
+
+.grey {
+  background-color: #E8EBF1;
+}
+
+.dis-none {
+  display: none;
+}
+
 header {
   position: fixed;
   height: 90px;
@@ -11032,5 +11044,47 @@ footer .socials a:hover {
 
 #privacy div div h3 {
   margin-top: 40px;
+}
+
+.faq {
+  padding: 50px 100px;
+}
+
+.faq .contactus {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.container-fluid .faq-bool-left,
+.container-sm .faq-bool-left,
+.container-md .faq-bool-left,
+.container-lg .faq-bool-left,
+.container-xl .faq-bool-left {
+  padding: 50px 50px 50px 100px;
+}
+
+.container-fluid .faq-bool-right,
+.container-sm .faq-bool-right,
+.container-md .faq-bool-right,
+.container-lg .faq-bool-right,
+.container-xl .faq-bool-right {
+  padding: 50px 100px 50px 50px;
+}
+
+.container-fluid .faq_quest,
+.container-sm .faq_quest,
+.container-md .faq_quest,
+.container-lg .faq_quest,
+.container-xl .faq_quest {
+  margin: 20px 0;
+}
+
+.container-fluid .faq_quest h3 i,
+.container-sm .faq_quest h3 i,
+.container-md .faq_quest h3 i,
+.container-lg .faq_quest h3 i,
+.container-xl .faq_quest h3 i {
+  float: right;
+  cursor: pointer;
 }
 
